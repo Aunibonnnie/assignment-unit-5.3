@@ -24,7 +24,6 @@ Update the `3-music-collection.js` file to do the following:
     // your code here...
   }
   ```
-
   - This function should:
     - Take in a `collection` parameter. (This allows the function to be reused to add an album to any array of album objects).
     - Take in the album's `title`, `artist`, `yearPublished` as parameters.
