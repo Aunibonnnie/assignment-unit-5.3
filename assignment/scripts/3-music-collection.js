@@ -27,17 +27,18 @@ addToCollection(myCollection, 'roon', 'Pluto', 2012)
 addToCollection(myCollection, 'boon', 'Pluto', 2012)
 console.log(myCollection);
 
+
 // Create a function named `showCollection`. This function should:
 //   - Take in a `collection` parameter. (This allows it to be reused to show any array of album objects).
 //   - Loop through the `collection` and `console.log` each album's information formatted **within a single string**, like: `TITLE by ARTIST, published in YEARPUBLISHED`.
 
-function showCollection(collection1) {
-  for(let i=0; i < collection1.length; i++) {
-    let album = collection1[i];
-    console.log(album.title1 + " " + album.artist1);
+function showCollection(collection) {
+  for(let i=0; i < collection.length; i++) {
+    let cd = collection[i];
+    console.log(cd.title + " by " + cd.artist + " published in " + cd.yearPublished);
   }
 }
-
+showCollection(myCollection);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
