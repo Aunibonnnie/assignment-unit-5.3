@@ -20,9 +20,9 @@ function addToCollection(collection1, title1, artist1, yearPublished1) {
   return cd;
 } 
 addToCollection(myCollection, 'Eternal Sunshine', 'Ariana Grande', 2024)
+addToCollection(myCollection, 'Guilty Pleasure', 'Jojo Siwa', 2024)
 addToCollection(myCollection, 'The Rise and Fall of a MidWest Princess', 'Chappell Roan', 2023)
 addToCollection(myCollection, 'Hot Pink', 'Doja Cat', 2019)
-addToCollection(myCollection, 'Guilty Pleasure', 'Jojo Siwa', 2012)
 addToCollection(myCollection, 'Justified', 'Justin Timberlake', 2002)
 addToCollection(myCollection, 'Baby One More Time', 'Britney Spears', 1999)
 console.log(myCollection);
@@ -62,6 +62,7 @@ function findByArtist(collection, artist1) {
 //   - Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection.
 //   - Check that for artists with multiple matches, all are returned.
 console.log(findByArtist(myCollection, 'Ariana Grande'));
+console.log(findByArtist(myCollection, 'Jojo Siwa'));
 console.log(findByArtist(myCollection, 'Chappell Roan'));
 console.log(findByArtist(myCollection, 'Doja Cat'));
 console.log(findByArtist(myCollection, 'Doja Dog'));
