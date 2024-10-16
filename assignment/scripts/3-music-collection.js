@@ -19,12 +19,12 @@ function addToCollection(collection1, title1, artist1, yearPublished1) {
   collection1.push(cd);
   return cd;
 } 
-addToCollection(myCollection, 'Fireflies', 'Owl City', 2009)
-addToCollection(myCollection, 'Moon', 'Pluto', 2012)
-addToCollection(myCollection, 'soon', 'Pluto', 2012)
-addToCollection(myCollection, 'doon', 'Pluto', 2012)
-addToCollection(myCollection, 'roon', 'Pluto', 2012)
-addToCollection(myCollection, 'boon', 'Pluto', 2012)
+addToCollection(myCollection, 'Eternal Sunshine', 'Ariana Grande', 2024)
+addToCollection(myCollection, 'The Rise and Fall of a MidWest Princess', 'Chappell Roan', 2023)
+addToCollection(myCollection, 'Hot Pink', 'Doja Cat', 2019)
+addToCollection(myCollection, 'Guilty Pleasure', 'Jojo Siwa', 2012)
+addToCollection(myCollection, 'Justified', 'Justin Timberlake', 2002)
+addToCollection(myCollection, 'Baby One More Time', 'Britney Spears', 1999)
 console.log(myCollection);
 
 
@@ -61,8 +61,10 @@ function findByArtist(collection, artist1) {
 // Use and test the `findByArtist` function.
 //   - Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection.
 //   - Check that for artists with multiple matches, all are returned.
-console.log(findByArtist(myCollection, 'Owl City'));
-console.log(findByArtist(myCollection, 'Moon'));
+console.log(findByArtist(myCollection, 'Ariana Grande'));
+console.log(findByArtist(myCollection, 'Chappell Roan'));
+console.log(findByArtist(myCollection, 'Doja Cat'));
+console.log(findByArtist(myCollection, 'Doja Dog'));
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
